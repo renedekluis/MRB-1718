@@ -1,0 +1,797 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="10.50" multi-file="no">
+  <meta>
+    <name>Project</name>
+    <authors> </authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type-id="class" type="UmlClass" />
+        <value>13</value>
+      </counter>
+      <counter>
+        <item-type stereotype="signal" type-id="class" type="UmlClass" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type type-id="package" type="UmlPackage" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type stereotype="interface" type-id="class" type="UmlClass" />
+        <value>4</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="class" type="UmlClass" />
+        <value>19</value>
+      </counter>
+      <counter>
+        <item-type type-id="dependency" type="UmlDependency" />
+        <value>7</value>
+      </counter>
+      <counter>
+        <item-type type-id="generalization" type="UmlGeneralization" />
+        <value>8</value>
+      </counter>
+      <counter>
+        <item-type type-id="package" type="UmlPackage" />
+        <value>4</value>
+      </counter>
+      <counter>
+        <item-type type-id="" type="AbstractElementGroup" />
+        <value>49</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>2</value>
+      </counter>
+    </diagrams>
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.AttributeField</type>
+        <value>79</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
+        <value>77</value>
+      </counter>
+    </fields>
+  </counters>
+  <alias-groups />
+  <management>
+    <persons>
+      <person id="P7b59a3a6f7bb4e5380079689ffccf3eb">
+        <first-name />
+        <last-name />
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <tasks />
+    <requirements />
+    <issues />
+    <to-dos />
+  </management>
+  <glossary />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <type id="void" tid="" name="void" description="" nullable="false" />
+      <type id="long" tid="" name="long" description="" nullable="false" />
+      <type id="long):Integer" tid="" name="long):Integer" description="" nullable="false" />
+      <type id="Class:di454657711782117923" tid="" name="Sunon" description="" nullable="false" class-ref="di454657711782117923" />
+      <type id="Float" tid="" name="Float" description="" nullable="false" />
+      <type id="Class:di585929806706081353" tid="" name="MotorController" description="" nullable="false" class-ref="di585929806706081353" />
+      <type id="Class:di361003424698161202" tid="" name="SerialController" description="" nullable="false" class-ref="di361003424698161202" />
+      <type id="cv::VideoCapture" tid="" name="cv::VideoCapture" description="" nullable="false" />
+      <type id="cv::Mat" tid="" name="cv::Mat" description="" nullable="false" />
+      <type id="Serial" tid="" name="Serial" description="" nullable="false" />
+      <type id="Long" tid="" name="Long" description="" nullable="false" />
+      <type id="Class:di632952317698622848" tid="" name="WindowControl" description="" nullable="false" class-ref="di632952317698622848" />
+      <type id="Class:di107052725521756521" tid="" name="SerialControl" description="" nullable="false" class-ref="di107052725521756521" />
+    </custom-types>
+  </types>
+  <filters />
+  <macros />
+  <items />
+  <models>
+    <model id="p40fd659480444240b0918950115cd1a9_584280431" name="" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>06/17/2018 16:14:33</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-class" id="p077597dabdf44eb0813aa7cb1661f3dc_205683527" name="Arduino Class Diagram" order-index="1" show-id="false" show-name="true" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-special-indicators="false" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>06/17/2018 16:14:33</creation-date>
+          <change-date>06/17/2018 16:42:28</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="di361003424698161202" cid="C001" type="class" name="SerialController" style-class="" visibility="package" change-tracking-state="added" creator="P7b59a3a6f7bb4e5380079689ffccf3eb" creation-date="06/17/2018 16:15:13">
+            <style class="default" />
+            <attributes>
+              <attribute id="ac6a4046828224950aef4fdad70cde346511" cid="ELEM028" name="Buffer" type="Char" type-id="Uml.Char" visibility="private">
+                <style class="default" />
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="o778a27eab67f4633ae3d37a0de4c208d326" cid="ELEM029" name="Read" type="Char" type-id="Uml.Char" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o7725fe316e504f88bd2742d14dc451b0313" cid="ELEM030" name="Write" type="void" type-id="void" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="pbaaf0f95616942fca362ec2442b9d663" name="data" type="Char" type-id="Uml.Char" />
+                </parameters>
+              </operation>
+            </operations>
+          </item>
+          <item id="di585929806706081353" cid="C002" type="class" name="MotorController" style-class="" owner="di792289194165161539" visibility="package" change-tracking-state="added" creator="P7b59a3a6f7bb4e5380079689ffccf3eb" creation-date="06/17/2018 16:15:25">
+            <style class="default" />
+            <attributes>
+              <attribute id="a4bcab8100f564f578a7d2cfee953caa1584" cid="ELEM013" name="motorPin" type="Integer" type-id="Uml.Integer" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a09f118faa0624f04b13f802d1441599d919" cid="ELEM014" name="motor" type="Sunon" type-id="Class:di454657711782117923" visibility="private">
+                <style class="default" />
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="ofafb4bb95338471e9db9bcedb3516dfe950" cid="ELEM015" name="MotorController" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o8c158c9e961445499ea0ec1e7f5bfd8c358" cid="ELEM016" name="MotorController" type="" type-id="" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p3d6f41afc0d54e11944f01cbb9c01e76" name="motorPin" type="Integer" type-id="Uml.Integer" />
+                </parameters>
+              </operation>
+              <operation id="o4cc9fbf9c49245f88e8af713e06f0af0624" cid="ELEM017" name="Run" type="void" type-id="void" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o03c531d2ad12495caf6f7dccc0cb72e2288" cid="ELEM018" name="GetDelayTime" type="Float" type-id="Float" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o848ce62c9a884b7e9b84c21ef32aa7b9802" cid="ELEM019" name="SetMotor" type="void" type-id="void" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p4ada29848d6848a1b5d9c48cf64e7f9f" name="motorDelay" type="Char" type-id="Uml.Char" />
+                </parameters>
+              </operation>
+            </operations>
+          </item>
+          <item id="di454657711782117923" cid="C003" type="class" name="Sunon" style-class="" visibility="package" change-tracking-state="added" creator="P7b59a3a6f7bb4e5380079689ffccf3eb" creation-date="06/17/2018 16:15:43">
+            <style class="default" />
+            <attributes>
+              <attribute id="a8f9220d0261d482aa983c7e2cbcf5ad4344" cid="ELEM001" name="pwmPin" type="Integer" type-id="Uml.Integer" visibility="private">
+                <style class="default" />
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="oe0072d37e76c4794b5421a88dfa9f4e2726" cid="ELEM002" name="Sunon" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="occ994abddd824cd4a909f4cbe7f598a393" cid="ELEM003" name="Sunon" type="" type-id="" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="pcb2e36379a214c7ea6912963845d670e" name="pwmPin" type="Integer" type-id="Uml.Integer" />
+                </parameters>
+              </operation>
+              <operation id="o6ed0b16b2d4043b19e52d2e451f78006139" cid="ELEM004" name="Set" type="void" type-id="void" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p5b91fe2b0ab04b859e1842d5c2df05f1" name="mode" type="Boolean" type-id="Uml.Boolean" />
+                </parameters>
+              </operation>
+            </operations>
+          </item>
+          <item id="di763941874920892797" cid="C004" type="class" name="Hcsr04" style-class="" visibility="package" change-tracking-state="added" creator="P7b59a3a6f7bb4e5380079689ffccf3eb" creation-date="06/17/2018 16:15:52">
+            <style class="default" />
+            <attributes>
+              <attribute id="a8acbb380305048069e22fe96c764ae10777" cid="ELEM005" name="trig" type="Integer" type-id="Uml.Integer" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a36de07366d3f4a3f8014283d2ee8e416970" cid="ELEM006" name="echo" type="Integer" type-id="Uml.Integer" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a4fd71ce8a3bd4e22abaf4c237b4cfb61199" cid="ELEM007" name="duration" type="long" type-id="long" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a13479e8d63a5489786daf3082f5980ab844" cid="ELEM008" name="distance" type="Integer" type-id="Uml.Integer" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="ab1bbd82357a947c9a0a667c951d6b55688" cid="ELEM009" name="convTime2Dist(time" type="long):Integer" type-id="long):Integer" visibility="private">
+                <style class="default" />
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="o011a478468964a1eac0c6ccf8d07fa4a160" cid="ELEM010" name="Hcsr04" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="oa9d5148d8bc6426aa56acedd106620c0842" cid="ELEM011" name="Hcsr04" type="long" type-id="long" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p7b4138d15a814a4db050ceef58b5c5e4" name="time" type="long" type-id="long" />
+                </parameters>
+              </operation>
+              <operation id="o4fb858e91a214462a38256ecad260b8a927" cid="ELEM012" name="Get" type="Integer" type-id="Uml.Integer" visibility="public">
+                <style class="default" />
+              </operation>
+            </operations>
+          </item>
+          <item id="di583600254889861375" cid="C005" type="class" name="&lt;&lt;Sunon ventilator&gt;&gt;" style-class="" visibility="package" change-tracking-state="added" creator="P7b59a3a6f7bb4e5380079689ffccf3eb" creation-date="06/17/2018 16:16:15">
+            <style class="default" />
+          </item>
+          <item id="di508468523463694629" cid="C006" type="class" name="&lt;&lt;HC-SR04&gt;&gt;" style-class="" visibility="package" change-tracking-state="added" creator="P7b59a3a6f7bb4e5380079689ffccf3eb" creation-date="06/17/2018 16:16:46">
+            <style class="default" />
+          </item>
+          <item id="di353894634783442563" cid="DEP001" type="dependency" name="" style-class="" visibility="package" change-tracking-state="added" creator="P7b59a3a6f7bb4e5380079689ffccf3eb" creation-date="06/17/2018 16:17:27" from="di454657711782117923" to="di583600254889861375">
+            <stereotypes>
+              <stereotype name="use" />
+            </stereotypes>
+            <style class="default" />
+          </item>
+          <item id="di956617706942935119" cid="DEP002" type="dependency" name="" style-class="" visibility="package" change-tracking-state="added" creator="P7b59a3a6f7bb4e5380079689ffccf3eb" creation-date="06/17/2018 16:17:31" from="di763941874920892797" to="di508468523463694629">
+            <stereotypes>
+              <stereotype name="use" />
+            </stereotypes>
+            <style class="default" />
+          </item>
+          <item id="di797683711417119796" cid="GNR001" type="generalization" name="" style-class="" visibility="package" change-tracking-state="added" creator="P7b59a3a6f7bb4e5380079689ffccf3eb" creation-date="06/17/2018 16:17:36" from="di585929806706081353" to="di763941874920892797">
+            <style class="default" />
+          </item>
+          <item id="di481639435268147666" cid="GNR002" type="generalization" name="" style-class="" visibility="package" change-tracking-state="added" creator="P7b59a3a6f7bb4e5380079689ffccf3eb" creation-date="06/17/2018 16:17:39" from="di585929806706081353" to="di454657711782117923">
+            <style class="default" />
+          </item>
+          <item id="di151208691687043442" cid="C008" type="class" name="Serial Connection" style-class="" visibility="package" change-tracking-state="added" creator="P7b59a3a6f7bb4e5380079689ffccf3eb" creation-date="06/17/2018 16:18:04">
+            <stereotypes>
+              <stereotype name="signal" />
+            </stereotypes>
+            <style class="default" />
+          </item>
+          <item id="di652145283627082980" cid="DEP003" type="dependency" name="" style-class="" visibility="package" change-tracking-state="added" creator="P7b59a3a6f7bb4e5380079689ffccf3eb" creation-date="06/17/2018 16:18:31" from="di361003424698161202" to="di151208691687043442">
+            <stereotypes>
+              <stereotype name="use" />
+            </stereotypes>
+            <style class="default" />
+          </item>
+          <item id="di151660325564402918" cid="C009" type="class" name="MainControl" style-class="" visibility="package" change-tracking-state="added" creator="P7b59a3a6f7bb4e5380079689ffccf3eb" creation-date="06/17/2018 16:18:37">
+            <style class="default" />
+            <attributes>
+              <attribute id="abd911885c8d545cc896d545c77339cf6186" cid="ELEM020" name="m" type="MotorController" type-id="Class:di585929806706081353" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a1ae5af22ebf5406181852240663e68dc539" cid="ELEM021" name="Siri" type="SerialController" type-id="Class:di361003424698161202" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a34f282f78bb646bf9930001cac4737a0473" cid="ELEM024" name="pwmPin" type="" type-id="" visibility="private" default-value="7: Integer">
+                <style class="default" />
+              </attribute>
+              <attribute id="afaa095556e0549d99cc249d96227a6cb756" cid="ELEM025" name="triggerPin" type="" type-id="" visibility="private" default-value="9: Integer">
+                <style class="default" />
+              </attribute>
+              <attribute id="a0df80d48aa844384a55e76082f3244da788" cid="ELEM026" name="echoPin" type="" type-id="" visibility="private" default-value="10: Integer">
+                <style class="default" />
+              </attribute>
+              <attribute id="a89e1cc62776e47fb8c381280561b3c5c714" cid="ELEM027" name="movav" type="" type-id="" visibility="private" default-value="0: Float">
+                <style class="default" />
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="o4e70cfa4c4c14d74afe1195663d5775f954" cid="ELEM022" name="Setup" type="void" type-id="void" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="oa24304666a4b41d387adb163336cd4f0621" cid="ELEM023" name="Loop" type="void" type-id="void" visibility="public">
+                <style class="default" />
+              </operation>
+            </operations>
+          </item>
+          <item id="di614021638973514811" cid="GNR004" type="generalization" name="" style-class="" visibility="package" change-tracking-state="added" creator="P7b59a3a6f7bb4e5380079689ffccf3eb" creation-date="06/17/2018 16:20:01" from="di151660325564402918" to="di361003424698161202">
+            <style class="default" />
+          </item>
+          <item id="di699457026361349178" cid="GNR005" type="generalization" name="" style-class="" visibility="package" change-tracking-state="added" creator="P7b59a3a6f7bb4e5380079689ffccf3eb" creation-date="06/17/2018 16:20:04" from="di151660325564402918" to="di585929806706081353">
+            <style class="default" />
+          </item>
+          <item id="di792289194165161539" cid="PKG001" type="package" name="Arduino Due" style-class="" visibility="package" change-tracking-state="added" creation-date="06/17/2018 16:42:28">
+            <style class="default" />
+          </item>
+        </abstract-items>
+        <layer name="Default" visible="true" enabled="true" locked="false">
+          <item id="di792289194165161539" iid="22323459a2de4f27a530e37a61ab099c" creation-date="06/17/2018 16:42:28" order-index="15" type="entity">
+            <layout ax="151" ay="62" awidth="1219" aheight="746" x="151" y="62" width="1219" height="746" />
+          </item>
+          <item id="di361003424698161202" iid="09db357ee5c540268aefd459af625cfa" creation-date="06/17/2018 16:15:13" order-index="0" type="entity">
+            <layout ax="216" ay="558" awidth="170" aheight="168" x="216" y="558" width="170" height="168" />
+            <class />
+          </item>
+          <item id="di585929806706081353" iid="d7c1926c7fa247a487b18dd182e53170" container="di792289194165161539" container-iid="22323459a2de4f27a530e37a61ab099c" creation-date="06/17/2018 16:15:25" order-index="1" type="entity">
+            <layout ax="860" ay="558" awidth="249" aheight="168" x="860" y="558" width="249" height="168" />
+            <class />
+          </item>
+          <item id="di454657711782117923" iid="f059edae35cc4ff4a850a5ba51c193e7" creation-date="06/17/2018 16:15:43" order-index="2" type="entity">
+            <layout ax="720" ay="227" awidth="191.5" aheight="164.5" x="720" y="227" width="191.5" height="164.5" />
+            <class />
+          </item>
+          <item id="di508468523463694629" iid="87c9b4e234734a0abeffb08f90076c20" creation-date="06/17/2018 16:16:46" order-index="5" type="entity">
+            <layout ax="1012" ay="131" awidth="140" aheight="24" x="1012" y="131" width="140" height="24" />
+            <class />
+          </item>
+          <item id="di353894634783442563" iid="b7d7d2dc396b48d99232ace61f4c3243" creation-date="06/17/2018 16:17:27" order-index="6" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" auto-path="" x1="817" y1="227" x2="818" y2="155" start-border-pos="0.126616156754855" end-border-pos="0.625193305194059" name-position="0,0">
+              <points>
+                <point x="817" y="227" />
+                <point x="818" y="155" />
+              </points>
+            </layout>
+            <relation from="di454657711782117923" from-iid="f059edae35cc4ff4a850a5ba51c193e7" to="di583600254889861375" to-iid="8e02d79daf104c7db38abdbbd0b76112" />
+          </item>
+          <item id="di956617706942935119" iid="97d78400fad946c3bc32584de66996a0" creation-date="06/17/2018 16:17:31" order-index="7" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" auto-path="" x1="1082" y1="217" x2="1082" y2="155" start-border-pos="0.125" end-border-pos="0.625" name-position="0,0">
+              <points>
+                <point x="1082" y="217" />
+                <point x="1082" y="155" />
+              </points>
+            </layout>
+            <relation from="di763941874920892797" from-iid="7f09dfbb553b4e6f8d44f822bb2d77f8" to="di508468523463694629" to-iid="87c9b4e234734a0abeffb08f90076c20" />
+          </item>
+          <item id="di797683711417119796" iid="a44fee35ecb74ce4a0458a537635e28a" creation-date="06/17/2018 16:17:36" order-index="8" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" auto-path="" x1="985" y1="558" x2="1082" y2="402" start-border-pos="0.125118148374749" end-border-pos="0.624498546632946" name-position="4,14">
+              <points>
+                <point x="985" y="558" />
+                <point x="985" y="506" />
+                <point x="1083" y="506" />
+                <point x="1082" y="402" />
+              </points>
+            </layout>
+            <relation from="di585929806706081353" from-iid="d7c1926c7fa247a487b18dd182e53170" to="di763941874920892797" to-iid="7f09dfbb553b4e6f8d44f822bb2d77f8" />
+          </item>
+          <item id="di763941874920892797" iid="7f09dfbb553b4e6f8d44f822bb2d77f8" creation-date="06/17/2018 16:15:52" order-index="3" type="entity">
+            <layout ax="965" ay="217" awidth="234" aheight="185" x="965" y="217" width="234" height="185" />
+            <class />
+          </item>
+          <item id="di481639435268147666" iid="8c99a5037a7b43c5867d2030e9310c89" creation-date="06/17/2018 16:17:39" order-index="9" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" auto-path="" x1="985" y1="558" x2="817" y2="392" start-border-pos="0.125118148374749" end-border-pos="0.623586868804055" name-position="0,0">
+              <points>
+                <point x="985" y="558" />
+                <point x="985" y="506" />
+                <point x="818" y="506" />
+                <point x="817" y="392" />
+              </points>
+            </layout>
+            <relation from="di585929806706081353" from-iid="d7c1926c7fa247a487b18dd182e53170" to="di454657711782117923" to-iid="f059edae35cc4ff4a850a5ba51c193e7" />
+          </item>
+          <item id="di583600254889861375" iid="8e02d79daf104c7db38abdbbd0b76112" creation-date="06/17/2018 16:16:15" order-index="4" type="entity">
+            <layout ax="724.5" ay="131" awidth="187" aheight="24" x="724.5" y="131" width="187" height="24" />
+            <class />
+          </item>
+          <item id="di151208691687043442" iid="8dc6a99e13fb4cf8b5e595333a0fe594" creation-date="06/17/2018 16:18:04" order-index="10" type="entity">
+            <layout ax="218.5" ay="391.5" awidth="165" aheight="37" x="218.5" y="391.5" width="165" height="37" />
+            <class />
+          </item>
+          <item id="di652145283627082980" iid="fae94a4199504302bcdf0d3ae1f3486a" creation-date="06/17/2018 16:18:31" order-index="11" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" auto-path="" x1="301" y1="558" x2="301" y2="428" start-border-pos="0.125" end-border-pos="0.625" name-position="0,0">
+              <points>
+                <point x="301" y="558" />
+                <point x="301" y="428" />
+              </points>
+            </layout>
+            <relation from="di361003424698161202" from-iid="09db357ee5c540268aefd459af625cfa" to="di151208691687043442" to-iid="8dc6a99e13fb4cf8b5e595333a0fe594" />
+          </item>
+          <item id="di151660325564402918" iid="3313d06a8473438c99961dcb1d80da9a" creation-date="06/17/2018 16:18:37" order-index="12" type="entity">
+            <layout ax="528" ay="549" awidth="170" aheight="185" x="528" y="549" width="170" height="185" />
+            <class />
+          </item>
+          <item id="di614021638973514811" iid="8d7c8755555146218d5665b53f7ba166" creation-date="06/17/2018 16:20:01" order-index="13" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" auto-path="" x1="528" y1="642" x2="386" y2="642" start-border-pos="0.874324324324324" end-border-pos="0.375" name-position="0,0">
+              <points>
+                <point x="528" y="642" />
+                <point x="386" y="642" />
+              </points>
+            </layout>
+            <relation from="di151660325564402918" from-iid="3313d06a8473438c99961dcb1d80da9a" to="di361003424698161202" to-iid="09db357ee5c540268aefd459af625cfa" />
+          </item>
+          <item id="di699457026361349178" iid="5df7a95cd8a145ea8e267c931ad1fcbc" creation-date="06/17/2018 16:20:04" order-index="14" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" auto-path="" x1="698" y1="642" x2="860" y2="642" start-border-pos="0.375675675675676" end-border-pos="0.875" name-position="0,0">
+              <points>
+                <point x="698" y="642" />
+                <point x="860" y="642" />
+              </points>
+            </layout>
+            <relation from="di151660325564402918" from-iid="3313d06a8473438c99961dcb1d80da9a" to="di585929806706081353" to-iid="d7c1926c7fa247a487b18dd182e53170" />
+          </item>
+        </layer>
+      </diagram>
+      <diagram type="uml-class" id="p02ff88751c4f462194383c33e00c57bf_806397440" name="VS-ClassDiagram" order-index="2" overview-order-index="0" show-id="false" show-name="true" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-special-indicators="false" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>06/17/2018 16:44:50</creation-date>
+          <change-date>06/17/2018 17:06:18</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="di632952317698622848" cid="C010" type="class" name="WindowControl" style-class="" visibility="package" change-tracking-state="added" creation-date="06/17/2018 16:45:50">
+            <style class="default" />
+            <attributes>
+              <attribute id="a1e1c509109fa44f8ad9bf13a0052aa91456" cid="ELEM031" name="HueLower" type="Integer" type-id="Uml.Integer" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="afc5c85d49a894a3eb4a2658b73245429549" cid="ELEM032" name="HueUpper" type="Integer" type-id="Uml.Integer" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a1924eae8ad1d4610a9123d1ab47238e174" cid="ELEM033" name="SatLower" type="Integer" type-id="Uml.Integer" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a5eac6a6170164ea09dca39e2682410f5892" cid="ELEM034" name="SatUpper" type="Integer" type-id="Uml.Integer" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="ac0129b18c2e24ac083362764d6d298cb652" cid="ELEM035" name="ValLower" type="Integer" type-id="Uml.Integer" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a14965f39609f4f3cacf12a306e34c268310" cid="ELEM036" name="ValUpper" type="Integer" type-id="Uml.Integer" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a3e61a267ec23461192d2d12d2e67ec05903" cid="ELEM037" name="MotorSpeedLower" type="Integer" type-id="Uml.Integer" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a3cb0ece30c79481597c2393c932c48e6581" cid="ELEM038" name="MotorSpeedUpper" type="Integer" type-id="Uml.Integer" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a173bde77a4664af98dc5a3474c470bb7638" cid="ELEM039" name="HorizontalLast" type="Integer" type-id="Uml.Integer" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="ab1a4fbda0d6f4fca85ebdc2891cccbc1164" cid="ELEM040" name="VerticalLast" type="Integer" type-id="Uml.Integer" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a0a0e184e57404d2cbf51c7dd8a58cdb1547" cid="ELEM041" name="videoLoad" type="cv::VideoCapture" type-id="cv::VideoCapture" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a40a82ec657f04ebe8143eda2a36555c4261" cid="ELEM042" name="temp" type="cv::Mat" type-id="cv::Mat" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a1d5528bd2aa447e791e1c6766a043df5993" cid="ELEM043" name="trackMotion" type="cv::Mat" type-id="cv::Mat" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="ae1b54ef0b14b42749a4586a6539bcc8d81" cid="ELEM045" name="PIDMax" type="Integer" type-id="Uml.Integer" visibility="public">
+                <style class="default" />
+              </attribute>
+            </attributes>
+          </item>
+          <item id="di582320122651783087" cid="C013" type="class" name="HighGui" style-class="" visibility="package" change-tracking-state="added" creation-date="06/17/2018 16:46:19">
+            <stereotypes>
+              <stereotype name="interface" />
+            </stereotypes>
+            <style class="default" />
+          </item>
+          <item id="di304676787531477911" cid="C014" type="class" name="imgProc" style-class="" visibility="package" change-tracking-state="added" creation-date="06/17/2018 16:46:27">
+            <stereotypes>
+              <stereotype name="interface" />
+            </stereotypes>
+            <style class="default" />
+          </item>
+          <item id="di836993057140614808" cid="DEP004" type="dependency" name="" style-class="" visibility="package" change-tracking-state="added" creation-date="06/17/2018 17:03:30" from="di107052725521756521" to="di188939117158554649">
+            <stereotypes>
+              <stereotype name="use" />
+            </stereotypes>
+            <style class="default" />
+          </item>
+          <item id="di589630301793620614" cid="C010" type="class" name="WindowControl" style-class="" visibility="package" change-tracking-state="added" creation-date="06/17/2018 16:45:50">
+            <style class="default" />
+            <attributes>
+              <attribute id="a1e1c509109fa44f8ad9bf13a0052aa91456" cid="ELEM031" name="HueLower" type="Integer" type-id="Uml.Integer" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="afc5c85d49a894a3eb4a2658b73245429549" cid="ELEM032" name="HueUpper" type="Integer" type-id="Uml.Integer" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a1924eae8ad1d4610a9123d1ab47238e174" cid="ELEM033" name="SatLower" type="Integer" type-id="Uml.Integer" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a5eac6a6170164ea09dca39e2682410f5892" cid="ELEM034" name="SatUpper" type="Integer" type-id="Uml.Integer" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="ac0129b18c2e24ac083362764d6d298cb652" cid="ELEM035" name="ValLower" type="Integer" type-id="Uml.Integer" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a14965f39609f4f3cacf12a306e34c268310" cid="ELEM036" name="ValUpper" type="Integer" type-id="Uml.Integer" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a3e61a267ec23461192d2d12d2e67ec05903" cid="ELEM037" name="MotorSpeedLower" type="Integer" type-id="Uml.Integer" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a3cb0ece30c79481597c2393c932c48e6581" cid="ELEM038" name="MotorSpeedUpper" type="Integer" type-id="Uml.Integer" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a173bde77a4664af98dc5a3474c470bb7638" cid="ELEM039" name="HorizontalLast" type="Integer" type-id="Uml.Integer" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="ab1a4fbda0d6f4fca85ebdc2891cccbc1164" cid="ELEM040" name="VerticalLast" type="Integer" type-id="Uml.Integer" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a0a0e184e57404d2cbf51c7dd8a58cdb1547" cid="ELEM041" name="videoLoad" type="cv::VideoCapture" type-id="cv::VideoCapture" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a40a82ec657f04ebe8143eda2a36555c4261" cid="ELEM042" name="temp" type="cv::Mat" type-id="cv::Mat" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a1d5528bd2aa447e791e1c6766a043df5993" cid="ELEM043" name="trackMotion" type="cv::Mat" type-id="cv::Mat" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="ae1b54ef0b14b42749a4586a6539bcc8d81" cid="ELEM045" name="PIDMax" type="Integer" type-id="Uml.Integer" visibility="public">
+                <style class="default" />
+              </attribute>
+              <attribute id="a1913cce8f3b34057acd05abdbdab2cd0241" cid="ELEM046" name="KpLow" type="Integer" type-id="Uml.Integer" visibility="public">
+                <style class="default" />
+              </attribute>
+              <attribute id="a8f0d4fae13f843888d9c200172f2fc19420" cid="ELEM047" name="KpHigh" type="Integer" type-id="Uml.Integer" visibility="public">
+                <style class="default" />
+              </attribute>
+              <attribute id="a8501a8c30862493b83032f46bc43ece2568" cid="ELEM048" name="KiLow" type="Integer" type-id="Uml.Integer" visibility="public">
+                <style class="default" />
+              </attribute>
+              <attribute id="abd96f9a6ee7d4091b08f9cf9b08d338e623" cid="ELEM049" name="KiHigh" type="Integer" type-id="Uml.Integer" visibility="public">
+                <style class="default" />
+              </attribute>
+              <attribute id="a7ca9c4a6c9cf43c49d7e00788d9a7f3c815" cid="ELEM050" name="KdLow" type="Integer" type-id="Uml.Integer" visibility="public">
+                <style class="default" />
+              </attribute>
+              <attribute id="abe218858f9cc4f128c36a4d16b36f651305" cid="ELEM051" name="KdHigh" type="Integer" type-id="Uml.Integer" visibility="public">
+                <style class="default" />
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="o3dd5f4295668411ba7ae6a14f84832c7921" cid="ELEM052" name="Windowcontrol" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o62e0b9614e0b4e8c8e769e84a4774c4f321" cid="ELEM053" name="GetHorLast" type="Integer" type-id="Uml.Integer" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o771c9a3cf9024a63a779580aedc31eab111" cid="ELEM054" name="GetVertLast" type="Integer" type-id="Uml.Integer" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o1ce022c579904b0f934bfb68cff011b3894" cid="ELEM055" name="GetMotorSpeed" type="Integer" type-id="Uml.Integer" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o706c8ba0ad6f44a88405df6921ef116f822" cid="ELEM056" name="Run" type="Integer" type-id="Uml.Integer" visibility="public">
+                <style class="default" />
+              </operation>
+            </operations>
+          </item>
+          <item id="di107052725521756521" cid="C016" type="class" name="SerialControl" style-class="" visibility="package" change-tracking-state="added" creation-date="06/17/2018 16:58:43">
+            <style class="default" />
+            <attributes>
+              <attribute id="a25dcbef966674ab58a4a3ea3751a6176812" cid="ELEM058" name="nBaudRate" type="Integer" type-id="Uml.Integer" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a5aef1a9237a24d289cf8fd1e98ac5c46919" cid="ELEM059" name="SP" type="Serial" type-id="Serial" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a820eb5719c4c4db6aa707b28ffeae91786" cid="ELEM060" name="incommingData" type="Char" type-id="Uml.Char" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a529ec6c9e0794035be7aa1e5872d17eb302" cid="ELEM061" name="DataLength" type="Integer" type-id="Uml.Integer" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="aa13fb2e5614c4569b677febc2b2b640a486" cid="ELEM062" name="ReadResult" type="Integer" type-id="Uml.Integer" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="adb26e41cf6464978896d4f2558e5f7e9717" cid="ELEM063" name="Result" type="Long" type-id="Long" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a186bcf3c59ec403a86af1a584c4207f6889" cid="ELEM064" name="buffer" type="Char" type-id="Uml.Char" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a93c8ceef7cff4212bd33ac3c39a6ae66763" cid="ELEM065" name="idx" type="Integer" type-id="Uml.Integer" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a21ec18b57fb946259b8bb90f13981a8d479" cid="ELEM066" name="filled" type="Integer" type-id="Uml.Integer" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a1a27783e1e0b461091cd49dcc0a88be3619" cid="ELEM067" name="Status" type="Integer" type-id="Uml.Integer" visibility="private">
+                <style class="default" />
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="o64070f1673ee4b37ac6c523881d07bf371" cid="ELEM068" name="CheckConnection" type="Boolean" type-id="Uml.Boolean" visibility="private">
+                <style class="default" />
+              </operation>
+              <operation id="o72660e279bda4493a1c7a3a23e27c118133" cid="ELEM069" name="RollOver" type="Integer" type-id="Uml.Integer" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p3db27348f6bf46448a1dfa8590a20f7b" name="val" type="Integer" type-id="Uml.Integer" />
+                </parameters>
+              </operation>
+              <operation id="o4c78a4d18878499bb6b2d5c01ce3c3c1556" cid="ELEM070" name="SearchFirstData" type="Integer" type-id="Uml.Integer" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p44fec492460c49659c7c84c0456362eb" name="pa" type="Char" type-id="Uml.Char" />
+                  <parameter id="pb724db5d8c9241f487b4b48f99906f35" name="start" type="Integer" type-id="Uml.Integer" />
+                  <parameter id="p1a6a87f324174fa0b561a7562538aea5" name="filled" type="Integer" type-id="Uml.Integer" />
+                </parameters>
+              </operation>
+              <operation id="o37175e7e5acf4d96849f45d5515ea3e4825" cid="ELEM071" name="Serialcontrol" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o6e7ce2f465b242fd8a2c49f969c563a4645" cid="ELEM072" name="GetStatus" type="Integer" type-id="Uml.Integer" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="oeae037b44c054997836c83b6c2c5716c276" cid="ELEM073" name="GetData" type="Integer" type-id="Uml.Integer" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o2f8f37961cd54c11add136d77d4af1dc630" cid="ELEM074" name="GetValue" type="long" type-id="long" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="off9d371f2d554f22a4ab2aa28c7fe7e6395" cid="ELEM075" name="SendData" type="void" type-id="void" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p0845b955ab5540fd8716998326b6d094" name="data" type="Char" type-id="Uml.Char" />
+                  <parameter id="p4e5a39cda61047769a9948f44082de78" name="length" type="Integer" type-id="Uml.Integer" />
+                </parameters>
+              </operation>
+            </operations>
+          </item>
+          <item id="di188939117158554649" cid="C017" type="class" name="Serial" style-class="" visibility="package" change-tracking-state="added" creation-date="06/17/2018 17:03:05">
+            <stereotypes>
+              <stereotype name="interface" />
+            </stereotypes>
+            <style class="default" />
+          </item>
+          <item id="di734008836198123440" cid="DEP005" type="dependency" name="" style-class="" visibility="package" change-tracking-state="added" creation-date="06/17/2018 17:03:33" from="di589630301793620614" to="di582320122651783087">
+            <stereotypes>
+              <stereotype name="use" />
+            </stereotypes>
+            <style class="default" />
+          </item>
+          <item id="di399408576485928685" cid="DEP006" type="dependency" name="" style-class="" visibility="package" change-tracking-state="added" creation-date="06/17/2018 17:03:38" from="di589630301793620614" to="di304676787531477911">
+            <stereotypes>
+              <stereotype name="use" />
+            </stereotypes>
+            <style class="default" />
+          </item>
+          <item id="di846044769343042093" cid="C018" type="class" name="MainControl" style-class="" visibility="package" change-tracking-state="added" creation-date="06/17/2018 17:05:01">
+            <style class="default" />
+            <attributes>
+              <attribute id="abdfb7f9a849349f287a6cb7a0b3eb377442" cid="ELEM077" name="w" type="WindowControl" type-id="Class:di632952317698622848" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a9b14f8d067594915a882306f385a94e082" cid="ELEM078" name="siri" type="SerialControl" type-id="Class:di107052725521756521" visibility="private">
+                <style class="default" />
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="ofb1f7b6a6e754e80a21b4a45796327a3994" cid="ELEM076" name="Run" type="void" type-id="void" visibility="public">
+                <style class="default" />
+              </operation>
+            </operations>
+          </item>
+          <item id="di402151808555518190" cid="GNR006" type="generalization" name="" style-class="" visibility="package" change-tracking-state="added" creation-date="06/17/2018 17:05:54" from="di846044769343042093" to="di107052725521756521">
+            <style class="default" />
+          </item>
+          <item id="di290322716537284300" cid="GNR007" type="generalization" name="" style-class="" visibility="package" change-tracking-state="added" creation-date="06/17/2018 17:05:59" from="di846044769343042093" to="di589630301793620614">
+            <style class="default" />
+          </item>
+          <item id="di344498455435594425" cid="PKG003" type="package" name="Laptop" style-class="" visibility="package" change-tracking-state="added" creation-date="06/17/2018 17:06:18">
+            <style class="default" />
+          </item>
+        </abstract-items>
+        <layer name="Default" visible="true" enabled="true" locked="false">
+          <item id="di344498455435594425" iid="79ab35bc805b4eb58bdb4aa132a44db1" creation-date="06/17/2018 17:06:18" order-index="12" type="entity">
+            <layout ax="75" ay="-49" awidth="1422" aheight="855" x="75" y="-49" width="1422" height="855" />
+          </item>
+          <item id="di632952317698622848" iid="7f2d58e48f634adf8e84f3c422bdd5a0" creation-date="06/17/2018 16:45:50" order-index="0" type="entity">
+            <layout ax="388" ay="202" awidth="198" aheight="287" x="388" y="202" width="198" height="287" />
+            <class />
+          </item>
+          <item id="di582320122651783087" iid="f223bf17f4f74740ac9616938e02e0b9" creation-date="06/17/2018 16:46:19" order-index="1" type="entity">
+            <layout ax="113" ay="202" awidth="140" aheight="40" x="113" y="202" width="140" height="40" />
+            <class />
+          </item>
+          <item id="di304676787531477911" iid="5b2a575a0395450ca2d5e384ec102de6" creation-date="06/17/2018 16:46:27" order-index="2" type="entity">
+            <layout ax="113" ay="279" awidth="140" aheight="40" x="113" y="279" width="140" height="40" />
+            <class />
+          </item>
+          <item id="di589630301793620614" iid="1b61e4e920de4ef09e10cdd304dca2c6" creation-date="06/17/2018 16:45:50" order-index="0" type="entity">
+            <layout ax="388" ay="15" awidth="198" aheight="474" x="388" y="15" width="198" height="474" />
+            <class />
+          </item>
+          <item id="di107052725521756521" iid="21b8a1280d5c463a957123279cc466f7" creation-date="06/17/2018 16:58:43" order-index="4" type="entity">
+            <layout ax="786" ay="114.5" awidth="335" aheight="369" x="786" y="114.5" width="335" height="369" />
+            <class />
+          </item>
+          <item id="di188939117158554649" iid="6a8d32c7b8024cd8aed1bd73f548f18e" creation-date="06/17/2018 17:03:05" order-index="5" type="entity">
+            <layout ax="1251" ay="279" awidth="140" aheight="40" x="1251" y="279" width="140" height="40" />
+            <class />
+          </item>
+          <item id="di836993057140614808" iid="16bd36e07aaf4043883d2b4f3742b473" creation-date="06/17/2018 17:03:30" order-index="6" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" auto-path="" x1="1121" y1="299" x2="1251" y2="299" start-border-pos="0.375" end-border-pos="0.875" name-position="0,0">
+              <points>
+                <point x="1121" y="299" />
+                <point x="1251" y="299" />
+              </points>
+            </layout>
+            <relation from="di107052725521756521" from-iid="21b8a1280d5c463a957123279cc466f7" to="di188939117158554649" to-iid="6a8d32c7b8024cd8aed1bd73f548f18e" />
+          </item>
+          <item id="di734008836198123440" iid="8c241014b38d49258df81b6a600e2662" creation-date="06/17/2018 17:03:33" order-index="7" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="true" lock-to-fields="false" auto-path="" x1="388" y1="239" x2="253" y2="222" start-border-pos="0.881694254492909" end-border-pos="0.375" name-position="0,0">
+              <points>
+                <point x="388" y="239" />
+                <point x="253" y="222" />
+              </points>
+            </layout>
+            <relation from="di589630301793620614" from-iid="1b61e4e920de4ef09e10cdd304dca2c6" to="di582320122651783087" to-iid="f223bf17f4f74740ac9616938e02e0b9" />
+          </item>
+          <item id="di399408576485928685" iid="f7494c08c7bd44e89ea17f073214e30a" creation-date="06/17/2018 17:03:38" order-index="8" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="true" lock-to-fields="false" auto-path="" x1="388" y1="272" x2="253" y2="299" start-border-pos="0.864512334896039" end-border-pos="0.375" name-position="0,0">
+              <points>
+                <point x="388" y="272" />
+                <point x="253" y="299" />
+              </points>
+            </layout>
+            <relation from="di589630301793620614" from-iid="1b61e4e920de4ef09e10cdd304dca2c6" to="di304676787531477911" to-iid="5b2a575a0395450ca2d5e384ec102de6" />
+          </item>
+          <item id="di846044769343042093" iid="200d8b4b2288462b972eddb1bffd60b5" creation-date="06/17/2018 17:05:01" order-index="9" type="entity">
+            <layout ax="586" ay="592" awidth="140" aheight="160" x="586" y="592" width="140" height="160" />
+            <class />
+          </item>
+          <item id="di402151808555518190" iid="cd2cda75c82b41f68227462aa0b05423" creation-date="06/17/2018 17:05:54" order-index="10" type="relation">
+            <layout line-style="perpendicular" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="726" y1="672" x2="954" y2="484" start-border-pos="0.375" end-border-pos="0.624626865671642" name-position="0,0">
+              <points>
+                <point x="726" y="672" />
+                <point x="954" y="484" />
+              </points>
+            </layout>
+            <relation from="di846044769343042093" from-iid="200d8b4b2288462b972eddb1bffd60b5" to="di107052725521756521" to-iid="21b8a1280d5c463a957123279cc466f7" />
+          </item>
+          <item id="di290322716537284300" iid="465573670dae4351932fd06bd4098d95" creation-date="06/17/2018 17:05:59" order-index="11" type="relation">
+            <layout line-style="perpendicular" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="586" y1="672" x2="487" y2="489" start-border-pos="0.875" end-border-pos="0.625" name-position="0,0">
+              <points>
+                <point x="586" y="672" />
+                <point x="487" y="489" />
+              </points>
+            </layout>
+            <relation from="di846044769343042093" from-iid="200d8b4b2288462b972eddb1bffd60b5" to="di589630301793620614" to-iid="1b61e4e920de4ef09e10cdd304dca2c6" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+  <documents />
+  <document-templates />
+</sim-project>

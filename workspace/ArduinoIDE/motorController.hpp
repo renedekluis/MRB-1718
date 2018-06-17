@@ -6,9 +6,6 @@ class MotorController{
 private:
   int motorPin;
   Sunon motor;
-  float delayTime = 17.80;
-  float midDelay = 17.80;
-  float oldDist =17.80;
 
 public:
   MotorController();
