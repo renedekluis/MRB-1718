@@ -1,0 +1,12 @@
+﻿  main.cpp
+d:\documents-(d)\hbo-ict\git\hbo-ict\jaar3\mrb-1718\workspace\ventilatorbal\ventilatorbal\main.cpp(47): warning C4305: 'initializing': truncation from 'double' to 'float'
+d:\documents-(d)\hbo-ict\git\hbo-ict\jaar3\mrb-1718\workspace\ventilatorbal\ventilatorbal\main.cpp(48): warning C4305: 'initializing': truncation from 'double' to 'float'
+d:\documents-(d)\hbo-ict\git\hbo-ict\jaar3\mrb-1718\workspace\ventilatorbal\ventilatorbal\main.cpp(49): warning C4305: 'initializing': truncation from 'double' to 'float'
+d:\documents-(d)\hbo-ict\git\hbo-ict\jaar3\mrb-1718\workspace\ventilatorbal\ventilatorbal\main.cpp(53): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+d:\documents-(d)\hbo-ict\git\hbo-ict\jaar3\mrb-1718\workspace\ventilatorbal\ventilatorbal\main.cpp(114): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\documents-(d)\hbo-ict\git\hbo-ict\jaar3\mrb-1718\workspace\ventilatorbal\ventilatorbal\main.cpp(116): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+d:\documents-(d)\hbo-ict\git\hbo-ict\jaar3\mrb-1718\workspace\ventilatorbal\ventilatorbal\main.cpp(132): warning C4244: '=': conversion from 'float' to 'char', possible loss of data
+d:\documents-(d)\hbo-ict\git\hbo-ict\jaar3\mrb-1718\workspace\ventilatorbal\ventilatorbal\main.cpp(126): warning C4477: 'printf' : format string '%6d' requires an argument of type 'int', but variadic argument 2 has type 'int *'
+d:\documents-(d)\hbo-ict\git\hbo-ict\jaar3\mrb-1718\workspace\ventilatorbal\ventilatorbal\main.cpp(126): warning C4313: 'printf': '%d' in format string conflicts with argument 2 of type 'int *'
+d:\documents-(d)\hbo-ict\git\hbo-ict\jaar3\mrb-1718\workspace\ventilatorbal\ventilatorbal\main.cpp(26): warning C4172: returning address of local variable or temporary: out
+  VentilatorBal.vcxproj -> D:\Documents-(D)\HBO-ICT\git\HBO-ICT\Jaar3\MRB-1718\workspace\VentilatorBal\x64\Debug\VentilatorBal.exe
